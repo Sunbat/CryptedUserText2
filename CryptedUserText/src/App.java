@@ -9,15 +9,13 @@ public class App {
       System.out.println("Type: 'login' or 'L', 'register' or 'R'");
       Scanner ask = new Scanner(System.in);
       String userInput = ask.nextLine();
-      if(userInput.equals("L") || userInput.equals("login") || userInput.equals("Login")){
-
-      }
-      else if(userInput.equals('r') || userInput.equals("register") || userInput.equals('R')){
+      
+      if(userInput.equals('r') || userInput.equals("register") || userInput.equals('R')){
         // String userName = myObj.nextLine();  // Read user input
         Scanner input = new Scanner(System.in);
         System.out.println("Input your username");
         String userName = input.nextLine();
-        
+
         System.out.println("Input your first name");
         String firstName = input.nextLine();
         System.out.println("Input your last name");
@@ -35,6 +33,9 @@ public class App {
 
         }
         else if(upgrade.equals("No")){}
+      }
+      else if(userInput.equals("L") || userInput.equals("login") || userInput.equals("Login")){
+
       }
       System.out.println("Type 'help' to see a list of commands you can use.");
       userInput = ask.nextLine();
