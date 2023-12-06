@@ -10,7 +10,7 @@ public class App {
       Scanner ask = new Scanner(System.in);
       String userInput = ask.nextLine();
       
-      if(userInput.equals('r') || userInput.equals("register") || userInput.equals('R')){
+      if(userInput == "r" || userInput == "register" || userInput == "R"){
         // String userName = myObj.nextLine();  // Read user input
         Scanner input = new Scanner(System.in);
         System.out.println("Input your username");
@@ -34,7 +34,7 @@ public class App {
         }
         else if(upgrade.equals("No")){}
       }
-      else if(userInput.equals("L") || userInput.equals("login") || userInput.equals("Login")){
+      else if(userInput == "L" || userInput == "Login" || userInput == "l" || userInput == "login"){
 
       }
       System.out.println("Type 'help' to see a list of commands you can use.");
