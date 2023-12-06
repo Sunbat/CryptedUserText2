@@ -13,7 +13,6 @@ class Main {
       }
       else if(userInput.equals('r') || userInput.equals('register') || userInput.equals('R')){
         System.out.println("Input your username");
-        
         Scanner userName = new Scanner(System.in);
         System.out.println("Input your first name");
         Scanner firstName = new Scanner(System.in);
@@ -24,7 +23,15 @@ class Main {
         User you = new User(username, password, firstName, lastName);
 
         System.out.println("Do you want to upgrade your account?");
-        System.out.println("Perks include encrypted messages, added security features, and extra bonus content such as games like rock paper scissors.")
+        System.out.println("Perks include encrypted messages, added security features, and extra bonus content such as games like rock paper scissors.");
+        System.out.println("Type 'Yes' or 'No'");
+        Scanner upgrade = new Scanner(System.in);
+
+        if(upgrade.equals('Yes')){
+
+        }
+        else if(upgrade.equals('No')){}
       }
+      System.out.println("Type 'help' to see a list of commands you can use.");
     }
   }

@@ -2,9 +2,9 @@ class PremiumUser extends User{
     private String key;
     private int gameScore;
 
-    public PremiumUser(user, pass, first, last, keyPass, Score){
-        super(user, pass, first, last);
-        key = keypass;
+    public PremiumUser(String user, String pass, String first,String last, String keyPass, int Score){
+        super(user, keyPass, first, last);
+        key = keyPass;
         gameScore = Score;
     }
 

@@ -1,10 +1,10 @@
-class User{
+public class User{
     String username;
     String firstName;
     String lastName;
     String password;
     
-    public User(String user, String pass, String first, String last){
+    public User( String user, String pass, String first, String last){
         username = user;
         password = pass;
         firstName = first;
@@ -13,7 +13,7 @@ class User{
     }
     
     public String[] getUser(){
-        String[] userInfo = {user, first, last};
+        String[] userInfo = {username, firstName, lastName};
         return userInfo;
     }
 
