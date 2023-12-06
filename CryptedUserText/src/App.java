@@ -10,7 +10,7 @@ public class App {
       Scanner ask = new Scanner(System.in);
       String userInput = ask.nextLine();
       
-      if(userInput == "r" || userInput == "register" || userInput == "R"){
+      if(userInput.equals("r") || userInput.equals("register") || userInput.equals("R")){
         // String userName = myObj.nextLine();  // Read user input
         Scanner input = new Scanner(System.in);
         System.out.println("Input your username");
