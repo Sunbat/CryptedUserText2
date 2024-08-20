@@ -1,7 +1,7 @@
-Getting Started
+Getting Started:
 Welcome to CUT, this is a program to send and receive encrypted messages.
 
-Folder Structure
+Folder Structure:
 The workspace contains two folders by default, where:
 
 src: the folder to maintain sources
